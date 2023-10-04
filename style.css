@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+}
+.profile
+{
+    border-radius: 50%;
+
+    
+}
+#welcome
+{
+    position: absolute;
+    bottom: 0%;
+    background: linear-gradient(green 0%, blue 100%);
+    display: table;
+    height: 100%;
+    width: 100%;
+    z-index: 9;
+}
+h1{
+    font-size: 40px;
+    font-weight: 300;
+    font-family: 'Roboto Mono', monospace;
+}
+#name
+{
+    font-size: 50px;
+}
+h2{
+    font-size: 25px;
+    font-weight: 200;
+}
+#bio
+{
+    font-family: cursive;
+    padding: 50px;
+}
+.line{
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+.parallax-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+.menu
+{
+    list-style: none;
+    position: absolute;
+    top :10px ;
+    right: 20px;
+    z-index: 10;
+    cursor: pointer;
+}
+.links{
+    padding-top: 5px;
+    padding-right: 6px;
+    padding-left: 7px;
+    padding-bottom: 10px;
+    float: left;
+    font-size: 20px;
+   
+}
